@@ -1,16 +1,79 @@
+@font-face{
+    font-family:themillion;
+    src: url(../tipografia/Letra.ttf.ttf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.logo{
-    width: 5vw;
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto) ;
+    grid-template-areas: 
+    "header header header"
+    "mainOne mainOne mainOne"
+    "mainTwo mainTwo mainTwo"
+    "footer footer footer";
 }
-video {
+
+.header{
+    grid-area: header;
+
+}
+.navbar{
+    background-color: black;
+}
+.lista a{
+    margin-left: 50px;
+    color: yellow;
+    border-radius: 10vh;
+    font-family:themillion;
+}
+.lista a:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 10vh;
+    transition: 0.5s;
+}
+.acordeon{
+    background-color: yellow;
+    color: yellow;
+}
+.logo{
+    width: 10vw;
+    border-radius: 10vh;
+}
+
+.mainOne{
+    grid-area: mainOne;
+    display: flex;
+    justify-content: center;
+}
+
+.entrada{
+
+    font-family:themillion;
+    color: yellow;
     position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
+    z-index: 1;
+}
+
+.vid{
+    width: 100%;
+    position: relative;
     z-index: -1;
-  }
+}
+
+.mainTwo{
+    grid-area: mainTwo;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+
+
