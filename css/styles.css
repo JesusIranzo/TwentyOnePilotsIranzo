@@ -51,12 +51,13 @@
     grid-area: mainOne;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.384);
 }
 
 .entrada{
-
     font-family:themillion;
-    color: yellow;
+    color: white;
     position: absolute;
     z-index: 1;
 }
@@ -85,10 +86,24 @@
     justify-content: center;
 }
 
+.one a{
+    text-decoration: none;
+    color: #FF5E5B;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+
+.one a:hover{
+    color: black;
+    background-color:#FF5E5B ;
+    transition: 0.5s;
+}
+
 .face{
     margin-top: 50px ;
     border-radius: 12px;
-    width:50vw;
+    width:70vw;
     height:380px;
 }
 
@@ -104,10 +119,24 @@
     justify-content: center;
 }
 
+.two a{
+    text-decoration: none;
+    background-color: black;
+    color: #E2C044;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+
+.two a:hover{
+    color: white;
+    background-color: #E2C044;
+    transition: 0.5s;
+}
+
 .rench{
     margin-top: 50px ;
     border-radius: 12px;
-    width:50vw;
+    width:70vw;
     height:380px;
 }
 
@@ -123,16 +152,40 @@
     justify-content: center;
 }
 
+.tree a{
+    text-decoration: none;
+    color:#80CED7 ;
+    background-color: black;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+
+.tree a:hover{
+    color: black;
+    background-color: #80CED7;
+    transition: 0.5s;
+}
+
 .icy{
     margin-top: 50px ;
     border-radius: 12px;
-    width:50vw;
+    width:70vw;
     height:380px;
+}
+
+.correo{
+    background-color: black;
+    color: #E2C044;
 }
 
 .footer{
     font-family: themillion;
     grid-area: footer;
+}
+
+.last{
+    text-align: center;
+    background-color: #E2C044;
 }
 
 @media (min-width: 425px){
