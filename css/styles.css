@@ -311,3 +311,96 @@
 .collapse{
     background-color: black;
 }
+
+/* Segunda Pagina */
+
+/* Tercera Página */
+.gira{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: themillion;
+  color: #80ced7;
+  background-image: linear-gradient(150deg, #ADB5BD, #6C757D, #495057, #495057, #495057);
+  background-size: 400% 300%;
+  animation: Icy 5s ease infinite;
+}
+@keyframes Icy {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.banner{
+  width: 100vw;
+}
+
+.box{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(150deg, #80ced7, #e2c044, #ff5e5b);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+
+.concert{
+  width: 75%;
+}
+
+.zona{
+  color: black;
+  text-align: center;
+  font-family: themillion;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(150deg, #80ced7, #e2c044, #ff5e5b);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+
+.lista{
+  width: 50%;
+}
+
+.compra{
+  width: 100%;
+  background-color: #242526;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn{
+  font-family: themillion;
+  color: #e2c044;
+    background-image: linear-gradient(100deg, #8CC1CB,#227B89,#242526,#303737);
+  background-size: 400% 300%;
+  animation: boton 5s ease infinite;
+}
+@keyframes boton {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn:hover{
+  font-family: themillion;
+  background-image: linear-gradient(150deg, #80ced7, #e2c044, #ff5e5b);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+
