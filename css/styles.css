@@ -68,12 +68,83 @@
 }
 
 .mainTwo{
+    display: flex;
     grid-area: mainTwo;
+    justify-content: center;
+}
+.blurryFace{
+    width: 95vw;
+    height: 90vh;
+    background-color: #FF5E5B;
+    font-family: themillion;
+    overflow: scroll;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+}
+
+.face{
+    margin-top: 50px ;
+    border-radius: 12px;
+    width:50vw;
+    height:380px;
+}
+
+.trench{
+    width: 95vw;
+    height: 90vh;
+    background-color: #E2C044;
+    font-family: themillion;
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+}
+
+.rench{
+    margin-top: 50px ;
+    border-radius: 12px;
+    width:50vw;
+    height:380px;
+}
+
+.scaledAndIcy{
+    width: 95vw;
+    height: 90vh;
+    background-color: #80CED7;
+    font-family: themillion;
+}
+
+.tree{
+    display: flex;
+    justify-content: center;
+}
+
+.icy{
+    margin-top: 50px ;
+    border-radius: 12px;
+    width:50vw;
+    height:380px;
 }
 
 .footer{
+    font-family: themillion;
     grid-area: footer;
 }
 
-
+@media (min-width: 425px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(4, auto) ;
+        grid-template-areas: 
+        "header header header"
+        "mainOne mainOne mainOne"
+        "mainTwo mainTwo mainTwo"
+        "footer footer footer";
+    }
+}
 
