@@ -403,4 +403,23 @@
   background-size: 400% 300%;
   animation: BgGradient 5s ease infinite;
 }
+/* Tercera Pagina */
 
+/* Cuarta Pagina */
+
+.quienesSon{
+  font-family: themillion;
+  text-align: center;
+  color: black;
+  background-color: #e2c044;
+}
+
+.quienesSon img{
+  width: 100vw;
+}
+
+@media (min-width:768px){
+  .quienesSon img{
+    width: 25vw;
+  }
+}
