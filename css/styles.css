@@ -308,9 +308,7 @@
     background-size: 400% 300%;
     animation: BgGradient 5s ease infinite;;
 }
-.collapse{
-    background-color: black;
-}
+
 
 /* Segunda Pagina */
 
@@ -423,3 +421,77 @@
     width: 25vw;
   }
 }
+/* Cuarta Pagina */
+
+/* Quinta Pagina */
+
+.recorrido{
+  text-align: center;
+  display: flex;
+  font-family: themillion;
+  flex-direction: column;
+  align-items: center;
+  color: #80ced7;
+  background-image: linear-gradient(150deg, #ADB5BD, #6C757D, #495057, #495057, #495057);
+  background-size: 400% 300%;
+  animation: Icy 5s ease infinite;
+}
+
+.aButtom{
+  font-size: x-large;
+  font-family: themillion;
+  color: black;
+  background-image: linear-gradient(150deg, #80ced7, #e2c044, #ff5e5b);
+  background-size: 400% 300%;
+  animation: BgGradient 5s ease infinite;
+}
+
+.first{
+  font-family: themillion;
+  color: #606C38;
+  background-color: #e2c044;
+}
+
+.second{
+  font-family: themillion;
+  color: white;
+  background-color: #DC2F02;
+}
+
+.theerd{
+  font-family: themillion;
+  color: white;
+  background-color: #DC2F02;
+}
+
+.fourth{
+  font-family: themillion;
+  color: #DC2F02;
+  background-color: black;
+}
+
+.fifth{
+  font-family: themillion;
+  color:#e2c044;
+  background-color: black;
+}
+
+.sixth{
+  font-family: themillion;
+  color: #303737;
+  background-color: #13f1fc;  
+}
+
+.musicales{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: themillion;
+  color: #DC2F02;
+  background-image: linear-gradient(150deg, #ADB5BD, #6C757D, #495057, #495057, #495057);
+  background-size: 400% 300%;
+  animation: Icy 5s ease infinite;
+}
+
+
+
